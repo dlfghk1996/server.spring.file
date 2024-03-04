@@ -58,7 +58,6 @@ public class CsvReader {
     }
 
 
-    // 계열
     public static List<OrderWeekPoint> readOrderWeekPointFile() throws IOException {
 
         ClassPathResource resource = new ClassPathResource("csv/order_week_point.csv");
@@ -72,7 +71,7 @@ public class CsvReader {
                 .parse();
     }
 
-    // 계열별 과목 환산점수
+
     public static Map<String, Map<String, String>> readOrderPointFile() throws IOException, CsvValidationException {
 
             ClassPathResource resource = new ClassPathResource("csv/order_point.csv");
@@ -121,7 +120,6 @@ public class CsvReader {
                 .build()
                 .parse();
 
-        System.out.println(list.toString());
         // <<브랜드-지역, ranking>,<메뉴, 리스트>>
         LinkedHashMap<Pair, LinkedHashMap<String,ArrayList<FoodGroup>>> result =
                 list.stream()
