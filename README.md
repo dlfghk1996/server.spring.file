@@ -16,12 +16,12 @@
 - Apache PDFBox
 * * *
 
-##### 기능
+##### 주요 기능
 1. File Reader
-   - <span style="color:green"> [xlxs]</span> <span style="color:grey"> "XSSFReader & SAX" 를 이용한 xlxs 파일 대용량 업로드 
-   - <span style="color:green"> [xlxs]</span> <span style="color:grey"> "XSSFWorkbook" 을 이용한 xlxs 파일 업로드
-   - <span style="color:green"> [csv]</span> <span style="color:grey"> "opencsv" : CSVReaderBuilder 이용한 Bean 기반 Reading
-   - <span style="color:green"> [csv]</span> <span style="color:grey"> "commons csv" : CSVParser 이용하여 지정된 형식에 따라 CSV 파일 구문 분석
+   -  [xlxs] "XSSFReader & SAX" 를 이용한 xlxs 파일 대용량 업로드 
+   -  [xlxs] "XSSFWorkbook" 을 이용한 xlxs 파일 업로드
+   -  [csv] "opencsv" : CSVReaderBuilder 이용한 Bean 기반 Reading
+   -  [csv] "commons csv" : CSVParser 이용하여 지정된 형식에 따라 CSV 파일 구문 분석
 2. File Viewer
    - 파일 조건 : csv, txt, xlsx, img 파일(summernote 사용)
    - 파일 용량 : 1MB 이하
